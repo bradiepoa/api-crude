@@ -4,10 +4,11 @@ import Home from './components/Home'
 import Create from './components/Create'
 import Edit from './components/Edit'
 import Delete from './components/Delete'
-
+import Navbar from './components/Navbar/Navbar'
 function App() {
   return (
     <>
+    <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/create" element={<Create />} />
